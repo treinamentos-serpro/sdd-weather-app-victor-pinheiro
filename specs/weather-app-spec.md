@@ -17,7 +17,7 @@ chave de API. Dados fornecidos pela Open-Meteo.
   dentre sugestões (com país/estado para desambiguar).
 - **RF2 — Clima atual:** exibir temperatura, condição, umidade, vento, pressão e
   precipitação da cidade selecionada.
-- **RF3 — Previsão de 5 dias:** exibir, por dia, mín/máx, condição e precipitação.
+- **RF3 — Previsão de 5 dias:** exibir, por dia, mín/máx, condição meteorológica, velocidade do vento e precipitação.
 - **RF4 — Unidade de temperatura:** alternar C/F atualizando todos os valores
   exibidos instantaneamente.
 - **RF5 — Estados de UI:** loading, erro e vazio claramente comunicados.
@@ -49,7 +49,7 @@ chave de API. Dados fornecidos pela Open-Meteo.
 
 **RF3 / US2**
 - Dada uma cidade selecionada, Quando os dados carregam, Então vejo exatamente 5
-  dias (hoje + 4), cada um com mín/máx e condição.
+  dias (hoje + 4), cada um com mín/máx, condição, velocidade do vento e precipitação.
 
 **RF4 / US3**
 - Dado o app exibindo °C, Quando eu alterno para °F, Então todas as temperaturas
